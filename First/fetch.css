@@ -1,0 +1,147 @@
+body {
+    background: linear-gradient(to bottom, #000000, #656565, #646464, #6d6d6d, #b3b3b3, #e9e9e9);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .header {
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    padding: 10px;
+  }
+  
+  .searchBar {
+    margin: 20px;
+    width: 60%;
+    padding: 20px;
+    /* align-self: center; */
+    margin-left: 20%;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    animation: moveUpDown 2s infinite alternate ease-in-out;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  #searchInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+  }
+  
+  #searchButton {
+    background-color: #008000;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .filter {
+    margin: 20px;
+  }
+  
+  #filterButton {
+    background-color: #008f00;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #filterComponent {
+    display: none;
+  }
+  #filterComponent.hidden {
+    display: none;
+  }
+  
+  .filterBar {
+    display: flex;
+    /* align-items: center; */
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .filterBar input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  #submitButton {
+    background-color: #00ff00;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+  }
+  .not_there{
+    margin-left: 200px;
+    margin-top: 6%;
+    position: relative;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .resultsBox {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    opacity: 0.6;
+    margin: 0 auto;
+    margin-top: 6%;
+    width: 60%;
+    padding: 20px;
+  }
+  
+  /* Rest of the CSS styles */
+
+.sideBox {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 350px;
+    right: 20px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  
+  .shakeButton {
+    transition: transform 0.2s;
+  }
+  
+  .shakeButton:hover {
+    animation: shakeButton 0.5s infinite;
+  }
+  
+  @keyframes shakeButton {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-2.5px);
+    }
+    50% {
+      transform: translateX(2.5px);
+    }
+    75% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

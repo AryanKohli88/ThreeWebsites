@@ -249,19 +249,17 @@ body {
     cursor: pointer;
   }
 
-  .vector {
+  .chatbot-icon {
     position: fixed;
-    top: 90%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 100px;
-    height: 100px;
+    bottom: 20px;
+    right: 20px;
     background-color: #333;
+    color: #fff;
+    padding: 10px;
     border-radius: 50%;
-    animation: rotate 3s infinite linear;
-    pointer-events: none; /* Prevent vector from interfering with mouse events */
+    z-index: 999;
   }
+
   .typing-animation {
     overflow: hidden; /* Ensure text doesn't overflow */
     white-space: nowrap; /* Prevent line breaks */

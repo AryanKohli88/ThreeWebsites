@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Company Form</title>
+  <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-item"><div class="home-button">
+    <!-- Add your navigation bar content here -->
+    <a href="index.html">Home</a>
+    <!-- <a href="#">About</a>
+    <a href="#">Contact</a> --></div></div>
+  </div>
+  
+  <div class="container">
+    <h2>Company Form</h2>
+    <form>
+      <div class="form-group">
+        <label for="org-name">Name of Organization:</label>
+        <input type="text" id="org-name" name="org-name" placeholder="eg: Amazon, Uber, StudyMonk etc." required>
+      </div>
+      
+      <div class="form-group">
+        <label for="post">Post:</label>
+        <input type="text" id="post" name="post" placeholder="Web Developer" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="your-name">Your Name:</label>
+        <input type="text" id="your-name" name="your-name" placeholder="Aryan Kohli" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="your-post">Your Post in the Organization:</label>
+        <input type="text" id="your-post" name="your-post" placeholder="HR" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="pay">Pay for the Role (in Rupees):</label>
+        <input type="text" id="pay" name="pay" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="payment-method">Payment Method:</label>
+        <select id="payment-method" name="payment-method" required>
+          <option value="paypal">PayPal</option>
+          <option value="rupay">RuPAY</option>
+          <option value="upi">UPI</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="role-description">Description of the Role:</label>
+        <textarea id="role-description" name="role-description" required></textarea>
+      </div>
+      
+      <div class="form-group">
+        <label for="attachments">Attachments:</label>
+        <input type="file" id="attachments" name="attachments">
+      </div>
+      
+      <input type="submit" value="Submit" class="submit-button">
+      <a href="fetch.html"><input type="button" value="Search for talent" class="submit-button"></a>
+    </form>
+  </div>
+  
+  <!-- <div class="chatbot-icon">
+    Add your chatbot icon content here -->
+    <!-- ><img src="Assets/glass.svg" alt="Search talent"></a> -->
+  <!-- </div>  -->
+</body>
+</html>

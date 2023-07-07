@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search and Filter Example</title>
+
+  <link rel="stylesheet" type="text/css" href="fetch.css">
+</head>
+<body>
+  <div class="header">
+   <a href="index.html"> <button id="homeButton" class="shakeButton">Home</button></a>
+  </div>
+  <div class="searchBar">
+    <input type="text" id="searchInput" placeholder="Enter a name">
+    <button id="searchButton" class="shakeButton">Search</button>
+  </div>
+
+  <div class="filter">
+    <button id="filterButton" class="shakeButton">Filter</button>
+    <div id="filterComponent" class="hidden">
+        <div class="filterBar">
+          <input type="text" id="locationInput" placeholder="Location">
+          <label for="locationSelect">Location:</label>
+          <select id="locationSelect">
+            <option value="">All</option>
+            <option value="country1">Country 1</option>
+            <option value="country2">Country 2</option>
+            <!-- Add more countries here -->
+          </select>
+          <input type="text" id="roleInput" placeholder="Role">
+          <label for="roleSelect">Role:</label>
+      <select id="roleSelect">
+        <option value="">All</option>
+        <option value="webDeveloper">Web Developer</option>
+        <option value="appDeveloper">App Developer</option>
+        <option value="videoEditor">Video Editor</option>
+        <option value="uiuxDesigner">UI/UX Designer</option>
+      </select>
+
+    </div>
+  </div>
+  <div class="resultsBox">
+    <div id="results" class="not_there">
+        <img src="Assets/image.png" alt="Loading Image">
+    </div>
+    <div id="results"></div>
+  </div>
+  <div class="sideBox">
+    <h3>Fetched students list</h3>
+    <ul id="fetchedStudentsList"></ul>
+  </div>
+
+  <script src="fetch.js"></script></body>
+</html>
