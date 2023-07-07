@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #ffebff, #ffffff, #000000);
+  }
+  
+  #header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* #header .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  } */
+  
+  #header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .background-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Rest of your CSS code */
+  
+
+  #header .gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+  
+  #header .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  #main {
+    display: flex;
+    height: 100vh;
+  }
+  
+  #main .subdivision {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  /* #main .subdivision .image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  } */
+  
+  /* #main .subdivision .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  
+  #main .subdivision:hover .original-image {
+    opacity: 0;
+  }
+  
+  #main .subdivision:hover .hover-image {
+    opacity: 1;
+  }
+   */
+   #header .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Assets/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+   .original-image,
+   .hover-image {
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+     width: 100%; /* Adjust the desired width */
+     height: auto; /* Maintain aspect ratio */
+   }
+   .original-image {
+    z-index: 1;
+  }
+
+  
+  .hover-image {
+    z-index: 2;
+    opacity: 0;
+    transform: scale(1);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .hover-image p {
+    padding: 10px;
+  }
+  
+  .image-container:hover .original-image {
+    opacity: 0;
+  }
+  
+  .image-container:hover .hover-image {
+    opacity: 1;
+    transform: scale(1.2);
+    background-color: purple;
+  }
+
+  #main .subdivision p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+  .bold-text {
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    white-space: pre;
+    overflow: hidden;
+  }
+  
+  .bold-text span {
+    display: inline-block;
+    opacity: 0;
+  }
+  
+  .slide-in {
+    animation: slideIn 1s ease-in-out both;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  /* Rest of your CSS code */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
+  #footer {
+    display: flex;
+    height: 100vh;
+  }
+  
+  #footer .half {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  #footer .half img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #footer .half .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #footer .half .buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .vector {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    border-radius: 50%;
+    animation: rotate 3s infinite linear;
+    pointer-events: none; /* Prevent vector from interfering with mouse events */
+  }
+  .typing-animation {
+    overflow: hidden; /* Ensure text doesn't overflow */
+    white-space: nowrap; /* Prevent line breaks */
+    border-right: 0.15em solid #333; /* Add blinking cursor effect */
+    animation: typing 3s steps(30) forwards;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+   /* {
+    overflow: hidden; /* Ensure text doesn't overflow */
+    /* white-space: nowrap; Prevent line breaks */
+    /* border-right: 0.15em solid #333; Add blinking cursor effect */
+    /* animation: typing 3s steps(30) infinite; */
+  /* } */ 
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruiting Website</title>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    #header {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+    }
+    
+    #header .gradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    }
+    
+    #header .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+    }
+    
+    #header .content h1 {
+      font-weight: bold;
+      font-size: 40px;
+    }
+    
+ #header .content img {
+  display: inline-block;
+  position: relative;
+  animation: slideIn 2s forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+    
+ /*   #main {
+      display: flex;
+      height: 100vh;
+    }
+    #main .subdivision {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+#main .subdivision .image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+#main .subdivision .image-container img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s;
+}
+
+#main .subdivision:hover .original-image {
+  opacity: 0;
+}
+
+#main .subdivision:hover .hover-image {
+  opacity: 1;
+}
+
+#main .subdivision p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+    
+#main .subdivision {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+#main .subdivision .image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#main .subdivision .image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+#main .subdivision:hover .original-image {
+  opacity: 0;
+}
+#main .subdivision:hover .hover-image {
+  opacity: 1;
+}
+#main .subdivision p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+#main .subdivision img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+/* 
+#main .subdivision .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 0, 128, 0.8);
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1; Increase the z-index value */
+/* } */
+/* 
+#main .subdivision:hover img {
+  transform: scale(1.1);
+}
+
+#main .subdivision:hover .overlay {
+  opacity: 1;
+}
+
+#main .subdivision .overlay p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+} */
+    #main .subdivision:hover p {
+      opacity: 1;
+    }
+    
+    #footer {
+      display: flex;
+      height: 100vh;
+    }
+    
+    #footer .half {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    
+    #footer .half img {
+      width: 100%;
+      height: auto;
+    }
+    
+    #footer .half .buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    #footer .half .buttons button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="vector">
+  <a href = "#footer">   <img src="Assets/rec.png" alt="Image 1"> <spam>fsfsfesfe</spam></a>
+</div>
+  
+
+  <div id="header">
+    <div class="background-video">
+      <video src="Assets/ink.mp4" autoplay loop muted></video>
+    </div>
+    <div class="gradient"></div>
+    <div class="content">
+      <h1 class="typing-animation">Searching for Talent?</h1>
+      <img src="Assets/pngwing.com.png" alt="Vector Image">
+    </div>
+  </div>
+  
+  <div id="main">
+    <div class="subdivision">
+        <div class="image-container">
+            <img class="original-image" src="Assets/1.png" alt="Image 1">
+            <img class="hover-image" src="Assets/2.png" alt="Hover Image 1">
+          </div>
+        <p>Text 1</p>
+    </div>
+    <div class="subdivision">
+        <div class="image-container">
+            <img class="original-image" src="Assets/a1.png" alt="Image 1">
+            <img class="hover-image" src="Assets/a2.png" alt="Hover Image 1">
+          </div>
+        <p>Text 1</p>
+    </div><div class="subdivision">
+        <div class="image-container">
+            <img class="original-image" src="Assets/b1.png" alt="Image 1">
+            <img class="hover-image" src="Assets/b2.png" alt="Hover Image 1">
+          </div>
+        <p>Text 1</p>
+    </div>
+  </div>
+  
+  <div id="footer">
+    <div class="half">
+      <img src="Assets/5484597.jpg" alt="Image 4">
+    </div>
+    
+        <p class="bold-text" >
+        <h1>
+            <br><br><br><br><br><br><br><br>
+        <span >Start</span><br>
+        <span>Recruiting</span><br>
+        <span>Today!</span><br>
+        </h1s>
+        </p>
+     <div class="half">   <div class="buttons">
+        <button type="button" class="btn btn-outline-primary">Start Hiring with JobWorld!</button>
+        <button type="button" class="btn btn-outline-primary">Returning User</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+/*
+	@name frame_1
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1600px; width: 1600px; height: 1876px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__frame_1 {
+	top: 0px;
+	left: 0px;
+	width: 1600px;
+	height: 1876px;
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle {
+	top: 121px;
+	left: 0px;
+	width: 1600px;
+	height: 685px;
+}
+
+
+#rectangle_1 {
+	top: 0px;
+	left: 0px;
+	width: 1600px;
+	height: 673px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-180deg , rgba(103.78,32.47,220.14,1) 0%, rgba(138.83,95.5,209.51,0.96) 23%, rgba(137.19,44.62,255,0.49) 32%, rgba(217,217,217,0) 100%);
+	background: -o-linear-gradient(-180deg , rgba(103.78,32.47,220.14,1) 0%, rgba(138.83,95.5,209.51,0.96) 23%, rgba(137.19,44.62,255,0.49) 32%, rgba(217,217,217,0) 100%);
+	background: -moz-linear-gradient(-180deg , rgba(103.78,32.47,220.14,1) 0%, rgba(138.83,95.5,209.51,0.96) 23%, rgba(137.19,44.62,255,0.49) 32%, rgba(217,217,217,0) 100%);
+	background: -ms-linear-gradient(-180deg , rgba(103.78,32.47,220.14,1) 0%, rgba(138.83,95.5,209.51,0.96) 23%, rgba(137.19,44.62,255,0.49) 32%, rgba(217,217,217,0) 100%);
+	background: linear-gradient(-180deg , rgba(103.78,32.47,220.14,1) 0%, rgba(138.83,95.5,209.51,0.96) 23%, rgba(137.19,44.62,255,0.49) 32%, rgba(217,217,217,0) 100%);
+}
+
+
+#rectangle_3 {
+	top: 529px;
+	left: -17px;
+	width: 1617px;
+	height: 1376px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-180deg , rgba(255,255,255,0) 13%, rgba(255,255,255,0.34) 29%, rgba(255,255,255,1) 44%, rgba(255,255,255,0.99) 57%, rgba(255,255,255,0.9) 93%);
+	background: -o-linear-gradient(-180deg , rgba(255,255,255,0) 13%, rgba(255,255,255,0.34) 29%, rgba(255,255,255,1) 44%, rgba(255,255,255,0.99) 57%, rgba(255,255,255,0.9) 93%);
+	background: -moz-linear-gradient(-180deg , rgba(255,255,255,0) 13%, rgba(255,255,255,0.34) 29%, rgba(255,255,255,1) 44%, rgba(255,255,255,0.99) 57%, rgba(255,255,255,0.9) 93%);
+	background: -ms-linear-gradient(-180deg , rgba(255,255,255,0) 13%, rgba(255,255,255,0.34) 29%, rgba(255,255,255,1) 44%, rgba(255,255,255,0.99) 57%, rgba(255,255,255,0.9) 93%);
+	background: linear-gradient(-180deg , rgba(255,255,255,0) 13%, rgba(255,255,255,0.34) 29%, rgba(255,255,255,1) 44%, rgba(255,255,255,0.99) 57%, rgba(255,255,255,0.9) 93%);
+}
+
+#group_1 {
+	top: 80px;
+	left: 62px;
+	width: 1493px;
+	height: 115px;
+}
+
+#rectangle_2 {
+	top: 0px;
+	left: 0px;
+	width: 1493px;
+	height: 115px;
+	-ms-border-radius: 57.5px;
+	-o-border-radius: 57.5px;
+	-moz-border-radius: 57.5px;
+	-webkit-border-radius: 57.5px;
+	border-radius: 57.5px;
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(49.07,49.07,49.07,0) 100%);
+	background: -o-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(49.07,49.07,49.07,0) 100%);
+	background: -moz-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(49.07,49.07,49.07,0) 100%);
+	background: -ms-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(49.07,49.07,49.07,0) 100%);
+	background: linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(49.07,49.07,49.07,0) 100%);
+}
+
+
+#new_here {
+	top: 23px;
+	left: 1294px;
+	width: 205.60085868835px;
+	height: 93.600858688354px;
+	overflow: hidden;
+	font-family: Lalezar;
+	font-size: 41.2px;
+	text-align: left;
+	color:#000000;
+}
+
+
+
+/* Add your custom CSS here */
